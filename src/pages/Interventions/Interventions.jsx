@@ -203,7 +203,13 @@ const Interventions = () => {
   ];
 
   return (
-    <Box sx={{ height: "900 px ", width: "99%", mx: "auto" }}>
+    <Box
+      sx={{
+        height: "900 px ",
+        width: "99%",
+        mx: "auto",
+      }}
+    >
       <DataGrid
         slots={{
           toolbar: GridToolbar,

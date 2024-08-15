@@ -1,0 +1,7 @@
+[
+  { "job": "docteur", "emoticone": "🧑‍⚕️" },
+
+  { "job": "technicien", "emoticone": "🛠️" },
+
+  { "job": "infermiere", "emoticone": "💉" }
+]

@@ -21,6 +21,7 @@ import NotificationsActiveOutlinedIcon from "@mui/icons-material/NotificationsAc
 import AlternateEmailOutlinedIcon from "@mui/icons-material/AlternateEmailOutlined";
 import MenuBookOutlinedIcon from "@mui/icons-material/MenuBookOutlined";
 import SmartToyOutlinedIcon from "@mui/icons-material/SmartToyOutlined";
+import ManageAccountsOutlinedIcon from "@mui/icons-material/ManageAccountsOutlined";
 import { Avatar, List, styled, Typography, useTheme } from "@mui/material";
 import { useLocation, useNavigate } from "react-router-dom";
 import { grey } from "@mui/material/colors";
@@ -78,61 +79,66 @@ const DrawerHeader = styled("div")(({ theme }) => ({
 const Array1 = [
   { text: "Tableau de Bord", icon: <HomeOutlinedIcon />, path: "/" },
   {
-    text: "Gestion des Actifs",
+    text: "Actifs",
     icon: <HomeRepairServiceOutlinedIcon />,
     path: "/Gestion",
   },
   {
-    text: "Gestion des Interventions",
+    text: "Interventions",
     icon: <ConstructionOutlinedIcon />,
     path: "/Interventions",
   },
   {
-    text: "Calendrier et Planification",
+    text: "Calendrier ",
     icon: <CalendarMonthOutlinedIcon />,
     path: "/Calendrier",
+  },
+  {
+    text: "Profil",
+    icon: <ManageAccountsOutlinedIcon />,
+    path: "/Profil",
   },
 ];
 const Array2 = [
   {
-    text: "Analyse et Rapports",
+    text: "Rapports",
     icon: <CandlestickChartOutlinedIcon />,
     path: "/Rapports",
   },
   {
-    text: "Gestion des Tickets",
+    text: "Tickets",
     icon: <BookOnlineOutlinedIcon />,
     path: "/Tickets",
   },
   {
-    text: "Suivi en Temps Réel",
+    text: "Temps Réel",
     icon: <CloudOutlinedIcon />,
     path: "/Suivi",
   },
   {
-    text: "Pièces de Rechange",
+    text: "Stocks",
     icon: <Inventory2OutlinedIcon />,
     path: "/Stocks",
   },
 ];
 const Array3 = [
   {
-    text: "Alertes et Notifications",
+    text: "Notifications",
     icon: <NotificationsActiveOutlinedIcon />,
     path: "/Alertes",
   },
   {
-    text: "contact information",
+    text: "information",
     icon: <AlternateEmailOutlinedIcon />,
     path: "/information",
   },
   {
-    text: "IA",
+    text: "ChatBot",
     icon: <SmartToyOutlinedIcon />,
     path: "/IA",
   },
   {
-    text: "Formation et Assistance",
+    text: "Formation",
     icon: <MenuBookOutlinedIcon />,
     path: "/Formation",
   },

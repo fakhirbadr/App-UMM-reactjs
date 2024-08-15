@@ -14,6 +14,7 @@ import Interventions from "./pages/Interventions/Interventions";
 import Calendrier from "./pages/calendrier/Calendrier";
 import Tickets from "./pages/Ticket/Tickets";
 import Stocks from "./pages/Stocks/Stocks";
+import Profil from "./pages/profil/Profil";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -25,6 +26,7 @@ const router = createBrowserRouter(
       <Route path="Tickets" element={<Tickets />} />
       <Route path="Stocks" element={<Stocks />} />
       <Route path="Calendrier" element={<Calendrier />} />
+      <Route path="Profil" element={<Profil />} />
     </Route>
   )
 );
